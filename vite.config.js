@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
-import { lookupArea } from './api/area-lookup.mjs'
-import { fetchListing } from './api/listing.mjs'
+import { lookupArea } from './api/_lib/area-lookup.mjs'
+import { fetchListing } from './api/_lib/listing.mjs'
 
 // Dev-only middleware that serves the area-lookup + listing handlers.
 // In production these same handlers are deployed as Supabase Edge Functions.
