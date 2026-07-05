@@ -2,6 +2,9 @@
 // Wraps the shared aggregator; the Census key comes from a server-side env var.
 import { lookupArea } from './_lib/area-lookup.mjs';
 
+// OpenStreetMap can be slow; allow more than Vercel's 10s default.
+export const config = { maxDuration: 30 };
+
 export default async function handler(req, res) {
   try {
     const address = req.query?.address;
