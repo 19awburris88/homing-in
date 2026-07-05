@@ -1,0 +1,32 @@
+:root {
+  /* Palette */
+  --cream:      #f6f2ec;
+  --surface:    #fffdf9;
+  --ink:        #1c1a17;
+  --muted:      #7a736a;
+  --accent:     #9c5a2c;
+  --gold:       #c8862f;
+  --gold-bg:    #f7ead5;
+  --gold-ring:  rgba(200, 134, 47, 0.25);
+  --border:     #e8e2d8;
+  --danger:     #c0392b;
+  --danger-bg:  #fdf2f1;
+
+  /* Shadows */
+  --shadow-card: 0 2px 12px rgba(28,26,23,0.09), 0 1px 3px rgba(28,26,23,0.06);
+  --shadow-modal:0 12px 40px rgba(28,26,23,0.18), 0 4px 12px rgba(28,26,23,0.10);
+
+  /* Typography */
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+  --font-sans:  -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+
+  /* Radii */
+  --r-sm:   6px;
+  --r-md:   12px;
+  --r-lg:   16px;
+  --r-pill: 999px;
+
+  /* Sizes */
+  --nav-h:  62px;
+  --header-h: 60px;
+}
